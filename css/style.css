@@ -239,16 +239,16 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen (max-width: 980px) {
+@media screen (min-width: 520px) and (max-width: 640px) {
+
 }
 
-@media screen (max-width: 768px) {
+@media screen (min-width: 641px) and (max-width: 768px) {
+
 }
 
-
-@media screen (max-width: 640px) {
+@media screen (max-width: 960px) {
+  
 }
-
-
 
 
