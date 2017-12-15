@@ -239,15 +239,13 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen (min-width: 520px) and (max-width: 640px) {
+@media screen and (min-width: 520px) and (max-width: 640px) {
 
 
 }
 
-@media screen (min-width: 641px) and (max-width: 768px) {
- {
-   background-color: red !important;
-}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
 .sidebar {
 float: right;
 width: 100%;
@@ -268,6 +266,9 @@ text-align: center;
 #connect {
 text-align: center;
 }
+.main-section {
+  max-width: 768px;
+}
 
 #logo {
 float: left;
@@ -283,7 +284,7 @@ text-decoration: none;
 background: #4aaaa5;
 }
 nav {
-width: 567px;
+width: 500px;
 float: right;
 margin-top: 25px;
 font-size: 25px;
@@ -291,15 +292,16 @@ padding-bottom: 15px;
 }
 .auth-image {
 float: left;
-width: 700px;
+width: 500px;
 height: auto;
 margin-top: 10px;
-margin-right: 20px;
+margin-right: 40px;
+padding-right: 60px;
 }
 
 }
 
-@media screen (min-width: 769px) and ( max-width: 980px) {
+@media screen and (min-width: 769px) and ( max-width: 980px) {
 
   
 }
